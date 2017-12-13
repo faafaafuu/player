@@ -1,0 +1,42 @@
+
+body {
+	background: url(https://brand.cfaes.ohio-state.edu/sites/ctbrand/files/site-library/site-documents/art/backgrounds/osu/buckeye_leaf_diamond_graywhite.jpg);
+	background-size: 4%;
+}
+
+.container {
+	padding: 5px;
+	width: 700px; 
+	height: 480px;
+	background: #eee;
+	border-radius: 5px;
+	
+	box-shadow: 0 1px 20px rgba(0,0,0,.6);
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.panel input {
+	margin-left: 10px;
+	display: inline-block;
+
+
+}
+
+.playpause {
+	width: 34px;
+	height: 34px;
+
+	
+	border-radius: 50px;
+	background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_play_circle_fill_48px-48.png)  center no-repeat #eee;
+
+}
+.fullscreen {
+	width: 34px;
+	height: 34px;
+	
+	background: url(https://cdn2.iconfinder.com/data/icons/fanaticons/100/Full_Screen_Filled-48.png)  center no-repeat #eee;
+	background-size: 100%;
+	
+}

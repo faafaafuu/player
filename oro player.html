@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="oro.js"></script>
+	<link rel="stylesheet" href="oro.css">
+	<meta  charset="UTF-8">
+	<title>Player</title>
+</head>
+<body>
+	<div class="container">
+		<div class="player">
+			<video id="video" src="Sia - Santa's Coming For Us.mp4" width="700" onclick="PlayPauseVideo()"> </video>
+		</div>
+		
+		<div class="panel">
+			<input type="range" id="ratio" style="width:680px;" onmousedown="clearAnimateRange()" onmouseup="movedRange()" /><br>
+			<input type="button" value="" class="playpause" onclick="PlayPauseVideo()" />
+			<input type="range" onmousemove="changeVolume()" id="volume" value="75" min=0
+			 max=100>
+			 <input type="button" value ="" class="fullscreen" onclick="fullScreen()" />
+		</div>	
+	</div>
+</body>
+</html>
